@@ -15,6 +15,7 @@ def grade(grade)
  sorted = {}
     roster.each do |grade, students|
       sorted[grade] = students.sort
+      #grade => {""
     end
     sorted
   end
