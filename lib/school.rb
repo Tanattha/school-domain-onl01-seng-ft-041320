@@ -15,7 +15,8 @@ def grade(grade)
  sorted = {}
     roster.each do |grade, students|
       sorted[grade] = students.sort
-      #grade => {""
+     
+     # expect(@school.roster).to eq({9 => ["Homer Simpson"], 10 => ["Jeff Baird", "Avi Flombaum"], 7 => ["Blake Johnson"]})
     end
     sorted
   end
